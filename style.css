@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+.btn{
+    @apply py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700; 
+}
+@tailwind utilities;
+
+
+
+    .hero-section {
+   
+      background-image: url('images/waves_auto_x2.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position-x: -440px;
+     background-position-y: -590px;
+     animation-play-state: running;
+    animation-play-state: running;}
+    .hero-section1 {
+
+      background-image: url('images/image (7).png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position-y: px;
+     background-position-x: -443px;
+     background-size:cover;
+    
+    animation-play-state: running;}
+    .hero-section2 {
+       
+        background-image: url('images/waves_auto_x2.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position-x: -444px;
+     background-position-y: -590px;
+       
+       
+      animation-play-state: running;}
+      .hero-section3 {
+   
+        background-image: url('images/image (7).png');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position-y: px;
+       background-position-x: -447px;
+      animation-play-state: running;}
+      .bc{
+        background-image: url('images/stacked-waves-haikei.png');
+        background-repeat: no-repeat;
+       background-size: cover;
+      }

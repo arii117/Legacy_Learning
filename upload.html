@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class=" min-h-screen w-full flex items-center justify-center bc">
+        <div class=" shadow-lg rounded-lg   px-96 py-20">
+          <h1 class="text-4xl font-serif mb-4 text-center">Project Submission Form</h1>
+          <form>
+            <div class="mb-4">
+              <label class="block text-gray-700 font-semibold mb-2" for="projectName">Project Name</label>
+              <input type="text" id="projectName" name="projectName" class="w-full border rounded-md px-3 py-2" required>
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 font-semibold mb-2" for="projectDescription">Project Description</label>
+              <textarea id="projectDescription" name="projectDescription" rows="4" class="w-full border rounded-md px-3 py-2" required></textarea>
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 font-semibold mb-2" for="projectFile">Upload a File</label>
+              <input type="file" id="projectFile" name="projectFile" class="w-full border rounded-md px-3 py-2" required>
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 font-semibold mb-2">Teammates' Names</label>
+              <input type="text" name="teammate1" placeholder="Teammate 1" class="w-full border rounded-md px-3 py-2 mb-2" required>
+              <input type="text" name="teammate2" placeholder="Teammate 2" class="w-full border rounded-md px-3 py-2 mb-2" required>
+              <input type="text" name="teammate1" placeholder="Teammate 3" class="w-full border rounded-md px-3 py-2 mb-3" required>
+              <input type="text" name="teammate2" placeholder="Teammate 4" class="w-full border rounded-md px-3 py-2 mb-4" required>
+              <!-- Add more teammate input fields as needed -->
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 font-semibold mb-2">Important Social Media Accounts</label>
+              <input type="text" name="socialMedia1" placeholder="Social Media Account 1" class="w-full border rounded-md px-3 py-2 mb-2" required>
+              <input type="text" name="socialMedia2" placeholder="Social Media Account 2" class="w-full border rounded-md px-3 py-2 mb-2" required>
+              <!-- Add more social media input fields as needed -->
+            </div>
+            <button type="submit" class="bg-blue-500 text-white font-semibold px-4 py-2 rounded-md hover:bg-blue-600">Submit</button>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
