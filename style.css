@@ -49,3 +49,64 @@
         background-repeat: no-repeat;
        background-size: cover;
       }
+      
+      @media (max-width: 64.0rem) {
+        html{
+          font-size: 45%;
+          background-image: none;
+          overflow-x: hidden;
+          
+          height: 20%;
+          margin-bottom: 10px;
+         
+        }
+        .hero-section,
+        .hero-section1,
+        .hero-section2,
+        .hero-section3,
+        .bc {
+            background-image: none;
+          
+        }
+       
+        body {
+          overflow-x: hidden;
+      }
+  
+      #im {
+      width: 100%;
+      height: auto;
+    }
+ .flex1 {
+      flex-direction: column;
+      align-items: center;
+  }
+.flex2 {
+    display: flex;
+}
+
+  /* Make image responsive */
+  .hero-section img {
+      width: 100%;
+      height: auto;
+  }
+  .hero-section1,.hero-section2{
+    padding-left: 0px;
+  }
+.cont1{
+  width: 100%;
+  
+  flex-direction: column;
+  align-items: center;
+  padding-left: 32px;
+  padding-top: 0px;
+  margin-top:0px;
+}
+#jj{
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+ }
